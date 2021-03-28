@@ -1,6 +1,6 @@
 import knex from "knex";
 
-const builder = knex({
+const queryBuilder = knex({
   client: 'mysql2',
   connection: {
     host: 'localhost',
@@ -12,4 +12,4 @@ const builder = knex({
   },
 })
 
-export default builder;
+export default queryBuilder;
